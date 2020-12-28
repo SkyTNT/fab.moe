@@ -15,7 +15,7 @@
         </v-card>
       </v-col>
       <v-col class="col-12">
-        <div class="text-h5">功能菜单</div>
+        <div class="text-h5">导航</div>
       </v-col>
       <v-col class="col-sm-6 col-lg-4 col-12" style="display: table-cell;">
         <v-card  @click="openLink('https://fs.fab.moe/')" v-ripple>
@@ -25,6 +25,11 @@
       <v-col class="col-sm-6 col-lg-4 col-12" style="display: table-cell;">
         <v-card  @click="openLink('https://blog.fab.moe/')" v-ripple>
           <v-card-title>个人博客</v-card-title>
+        </v-card>
+      </v-col>
+      <v-col class="col-sm-6 col-lg-4 col-12" style="display: table-cell;">
+        <v-card  @click="openLink('https://github.com/skyTNT')" v-ripple>
+          <v-card-title>Github</v-card-title>
         </v-card>
       </v-col>
     </v-row>
